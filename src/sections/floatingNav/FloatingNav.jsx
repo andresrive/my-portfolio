@@ -3,7 +3,7 @@ import React from 'react'
 
 const FloatingNav = () => {
     return (
-        <section id='floatingNav'>Floating Nav</section>
+        <section id='floatingNav'><h2>Floating Nav</h2></section>
 
 
     )
