@@ -64,12 +64,15 @@ header {
     header {
         margin-top:0;
         height: 100vh;
-
     }
 }
 
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
+    header {
+        margin-top:0;
+        height: 100vh;
+    }
     .header__profile {
         width: 14rem;
         height: 17rem;
