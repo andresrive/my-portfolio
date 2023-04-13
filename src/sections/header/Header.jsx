@@ -1,7 +1,6 @@
 import './header.css'
 import React from 'react'
-import HeaderImage from '../../assets/header.jpg'
-// import { a } from 'react-router-dom'
+import HeaderImage from '../../assets/header.jpeg'
 import data from './data'
 
 const Header = () => {

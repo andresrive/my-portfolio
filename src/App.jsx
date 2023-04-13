@@ -12,14 +12,18 @@ import FAQS from './sections/faqs/FAQS'
 import Contact from './sections/contact/Contact'
 import Footer from './sections/footer/Footer'
 import FloatingNav from './sections/floatingNav/FloatingNav'
+import Modal from './components/Modal'
+import Theme from './theme/Theme'
+import { useThemeContext } from './context/theme.context'
 
 
 
 function App() {
 
+  const { themeState } = useThemeContext()
 
   return (
-    <main className="App">
+    <main className={`${themeState.primary} ${themeState.background}`}>
       <Navbar />
       <Header />
       <About />
@@ -30,6 +34,7 @@ function App() {
       <Contact />
       <Footer />
       <FloatingNav />
+      <Theme />
     </main>
   )
 }

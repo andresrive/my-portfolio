@@ -44,7 +44,7 @@ header {
 }
 
 .header__socials a {
-    width: 1.8rem;
+    width: 2.5rem;
     aspect-ratio: 1/1;
     background-color: var(--color-light);
     color: var(--color-black);
