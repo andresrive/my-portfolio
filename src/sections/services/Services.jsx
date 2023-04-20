@@ -8,7 +8,7 @@ const Services = () => {
         <section id='services'>
             <h2>My Services</h2>
             <p>I have experience in all the services below</p>
-            <div className='container services__container'>
+            <div className='container services__container' data-aos='fade-up'>
                 {
                     data.map(item => <Card className='service light' key={item.id}>
                         <div className='service__icon'>{item.icon}</div>

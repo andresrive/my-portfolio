@@ -7,7 +7,7 @@ const FAQS = () => {
     return (
         <section id='faqs'>
             <h2>Frequently Asked Questions</h2>
-            <div className='container faqs__container'>
+            <div className='container faqs__container' data-aos='fade-in'>
                 {
                     faqs.map(faq => <FAQ key={faq.id} faq={faq} />)
                 }
