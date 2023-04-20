@@ -5,7 +5,6 @@ import { AiFillAppstore } from 'react-icons/ai'
 import { HiOutlineCode } from 'react-icons/hi'
 import { AiFillMessage } from 'react-icons/ai'
 
-
 const data = [
     { id: 1, link: '#', icon: <AiFillHome /> },
     { id: 2, link: '#about', icon: <BsPersonFill /> },
